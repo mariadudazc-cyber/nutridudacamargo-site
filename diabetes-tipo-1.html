@@ -215,7 +215,8 @@
     <p class="olho claro">Ainda não é hora de marcar consulta?</p>
     <h2>Ainda não é hora de marcar consulta?</h2>
     <p>Sem problema. Deixa eu te mandar o guia gratuito sobre alimentação no diabetes e o que eu escrevo por aqui. Quando fizer sentido, a porta continua aberta.</p>
-    <form class="form" method="post" action="#">
+    <form class="form" method="post" action="/api/guia">
+      <input type="hidden" name="origem" value="diabetes-tipo-1">
       <label class="sr">Nome<input type="text" name="nome" placeholder="Seu nome" required></label>
       <label class="sr">E-mail<input type="email" name="email" placeholder="seu@email.com" required></label>
       <button class="btn" type="submit">Quero o guia gratuito</button>

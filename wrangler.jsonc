@@ -1,9 +1,17 @@
 {
   "name": "nutridudacamargo-site",
   "compatibility_date": "2026-08-19",
+  "main": "worker.js",
   "assets": {
     "directory": "./",
+    "binding": "ASSETS",
     "html_handling": "force-trailing-slash",
     "not_found_handling": "404-page"
-  }
+  },
+  "send_email": [
+    {
+      "name": "GUIA_EMAIL",
+      "destination_address": "nutridudacamargo@gmail.com"
+    }
+  ]
 }

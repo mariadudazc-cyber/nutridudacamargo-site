@@ -11,7 +11,6 @@
 /c%C3%B3pia-maria-eduarda-nutricionista /              301
 /book-online                            /              301
 /store-policy                           /              301
-/blog                                   /              301
 
 # Os 5 posts genéricos antigos sem sinal de clique no Search Console (3 meses)
 /post/a-arte-de-recomecar                                               /  301
@@ -22,10 +21,15 @@
 /post/você-sabe-realmente-o-que-está-no-seu-prato                       /  301
 /post/voc%C3%AA-sabe-realmente-o-que-est%C3%A1-no-seu-prato             /  301
 
+# Post "por que comer tanto no café da manhã" — tinha clique real no Search Console,
+# mas a Duda decidiu excluí-lo (19/08/2026). Redireciona para a home em vez de 404
+# para não perder o tráfego que ainda chega por busca.
+/post/por-que-comer-tanto-no-cafe-da-manha        /  301
+/post/por-quê-comer-tanto-no-café-da-manhã        /  301
+/post/por-que-comer-tanto-no-caf%C3%A9-da-manh%C3%A3 /  301
+
 # NÃO redirecionar (mantidos, ver plano seção 3.2 / 9.1):
-# /post/por-que-comer-tanto-no-cafe-da-manha        → tem clique real no Search Console, decisão pendente da Duda
-# /post/por-quê-comer-tanto-no-café-da-manhã        → idem
-# /post/pré-diabetes-tem-cura                       → já publicado, URL preservada
+# /post/pre-diabetes-tem-cura                       → já publicado, URL preservada
 # /post/como-convencer-seu-pai-a-se-cuidar-sem-briga → já publicado, URL preservada
 # /post/diabetes-gestacional-os-primeiros-7-dias    → já publicado, URL preservada
 # /post/diabetes-tipo-1-na-escola-o-que-combinar-antes-do-primeiro-dia → já publicado, URL preservada
