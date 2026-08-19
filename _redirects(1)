@@ -1,0 +1,33 @@
+# Redirecionamentos 301 — migração Wix → Cloudflare Pages
+# nutridudacamargo.com.br · gerado em 19/08/2026, com dado real do Search Console
+
+# Seção 1 do mapa-301-e-migracao.md — a única exceção entre as 7 URLs removidas em 14/08
+/post/como-escolher-opcoes-saudaveis-ao-comer-fora-dicas-para-consumidores-e-restaurantes  /diabetes-tipo-2  301
+
+# Páginas fixas do site antigo
+/emagrecimento                          /pre-diabetes  301
+/beneficios                             /              301
+/cópia-maria-eduarda-nutricionista      /              301
+/c%C3%B3pia-maria-eduarda-nutricionista /              301
+/book-online                            /              301
+/store-policy                           /              301
+/blog                                   /              301
+
+# Os 5 posts genéricos antigos sem sinal de clique no Search Console (3 meses)
+/post/a-arte-de-recomecar                                               /  301
+/post/corpo-de-verao-se-constroi-no-inverno                             /  301
+/post/corpo-de-ver%C3%A3o-se-constr%C3%B3i-no-inverno                   /  301
+/post/entenda-o-que-voce-consome-a-importancia-da-rotulagem-nutricional /  301
+/post/voce-sabe-realmente-o-que-esta-no-seu-prato                       /  301
+/post/você-sabe-realmente-o-que-está-no-seu-prato                       /  301
+/post/voc%C3%AA-sabe-realmente-o-que-est%C3%A1-no-seu-prato             /  301
+
+# NÃO redirecionar (mantidos, ver plano seção 3.2 / 9.1):
+# /post/por-que-comer-tanto-no-cafe-da-manha        → tem clique real no Search Console, decisão pendente da Duda
+# /post/por-quê-comer-tanto-no-café-da-manhã        → idem
+# /post/pré-diabetes-tem-cura                       → já publicado, URL preservada
+# /post/como-convencer-seu-pai-a-se-cuidar-sem-briga → já publicado, URL preservada
+# /post/diabetes-gestacional-os-primeiros-7-dias    → já publicado, URL preservada
+# /post/diabetes-tipo-1-na-escola-o-que-combinar-antes-do-primeiro-dia → já publicado, URL preservada
+
+# Os 6 posts B2B removidos em 14/08 (sem sinal de backlink no Search Console): ficam 404, sem regra.
