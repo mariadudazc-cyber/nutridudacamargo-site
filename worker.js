@@ -1,7 +1,7 @@
 import { EmailMessage } from "cloudflare:email";
 
 const REMETENTE = "guia@nutridudacamargo.com.br";
-const DESTINO = "nutridudacamargo@gmail.com";
+const DESTINO = "nutri.dudacamargo@gmail.com";
 
 export default {
   async fetch(request, env, ctx) {
