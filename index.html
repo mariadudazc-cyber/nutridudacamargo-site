@@ -225,9 +225,12 @@
     <p>Sem cadastro longo e sem pergunta sobre a sua saúde: eu só preciso de um contato para te enviar.</p>
     <form class="form" method="post" action="/api/guia">
       <input type="hidden" name="origem" value="home">
-      <label class="sr">Seu nome<input type="text" name="nome" placeholder="Seu nome" required></label>
-      <label class="sr">Seu WhatsApp<input type="tel" name="whatsapp" placeholder="Seu WhatsApp" required></label>
-      <label class="sr">Cidade<input type="text" name="cidade" placeholder="Cidade"></label>
+      <label class="sr" for="nome-home">Seu nome</label>
+      <input type="text" id="nome-home" name="nome" placeholder="Seu nome" required>
+      <label class="sr" for="whatsapp-home">Seu WhatsApp</label>
+      <input type="tel" id="whatsapp-home" name="whatsapp" placeholder="Seu WhatsApp" required>
+      <label class="sr" for="cidade-home">Cidade</label>
+      <input type="text" id="cidade-home" name="cidade" placeholder="Cidade">
       <button class="btn" type="submit">Quero o guia</button>
     </form>
     <label class="consent">

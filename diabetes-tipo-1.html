@@ -217,8 +217,10 @@
     <p>Sem problema. Deixa eu te mandar o guia gratuito sobre alimentação no diabetes e o que eu escrevo por aqui. Quando fizer sentido, a porta continua aberta.</p>
     <form class="form" method="post" action="/api/guia">
       <input type="hidden" name="origem" value="diabetes-tipo-1">
-      <label class="sr">Nome<input type="text" name="nome" placeholder="Seu nome" required></label>
-      <label class="sr">E-mail<input type="email" name="email" placeholder="seu@email.com" required></label>
+      <label class="sr" for="nome-t1">Nome</label>
+      <input type="text" id="nome-t1" name="nome" placeholder="Seu nome" required>
+      <label class="sr" for="email-t1">E-mail</label>
+      <input type="email" id="email-t1" name="email" placeholder="seu@email.com" required>
       <button class="btn" type="submit">Quero o guia gratuito</button>
     </form>
     <label class="consent">
