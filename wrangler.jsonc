@@ -12,7 +12,7 @@
   "send_email": [
     {
       "name": "GUIA_EMAIL",
-      "destination_address": "nutridudacamargo@gmail.com"
+      "destination_address": "nutri.dudacamargo@gmail.com"
     }
   ]
 }
