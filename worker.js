@@ -7,6 +7,11 @@ export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
 
+    if (url.hostname === "www.nutridudacamargo.com.br") {
+      url.hostname = "nutridudacamargo.com.br";
+      return Response.redirect(url.toString(), 301);
+    }
+
     if (url.pathname === "/api/guia" && request.method === "POST") {
       return handleGuiaForm(request, env, url);
     }
